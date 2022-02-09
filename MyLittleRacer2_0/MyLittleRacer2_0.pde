@@ -11,7 +11,7 @@ CarSystem carSystem       = new CarSystem(populationSize);
 PImage    trackImage;
 
 void setup() {
-  size(1000, 1200);
+  size(500, 600);
   trackImage = loadImage("track.png");
 }
 
@@ -22,13 +22,7 @@ void draw() {
 
   carSystem.updateAndDisplay();
 
-  push();
-  fill(0);
-  textSize(20);
-  text("Population size: " + populationSize + "\n" + "generation: " + generation + "\n" + "framecount: " + frameCount + "\n" +
-    "weights: " + bedsteWeights, width/2 + 50, 60);
-  pop();
-
+ 
   if (frameCount%500==0) {
     nextGeneration();
   }
