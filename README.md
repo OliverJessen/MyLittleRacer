@@ -5,9 +5,9 @@
 Denne genetiske algortime skal kunne gøre et par ting. Den skal helst som følgende:
  
 - Kunne identificere den bedste racerbil ud fra nogle værdier, såsom:
- * Antallet af gange den er udenfor banen.
- * Hvor meget den roterer rundt om centrum, anti-klokkevis.
- * hvor hurtigt den kan køre banen rundt.
+ Antallet af gange den er udenfor banen. 
+ Hvor meget den roterer rundt om centrum, anti-klokkevis. 
+ Hvor hurtigt den kan køre banen rundt.
  
 - Gemme på dens weights og biases ved at lave en pladsholder og sætte pladsholderen som de nye weights og biases.
  
